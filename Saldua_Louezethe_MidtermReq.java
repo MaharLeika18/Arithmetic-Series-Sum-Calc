@@ -26,7 +26,7 @@ public class Saldua_Louezethe_MidtermReq {
         totalTerms = BigInteger.valueOf(dataInt[2]);
         TWO = BigInteger.valueOf(2); 
 
-        stepOne = (totalTerms.divide(two)); 
+        stepOne = (totalTerms.divide(TWO)); 
         stepTwo = (firstTerm.add(lastTerm));
         sum = stepOne.multiply(stepTwo);
 
@@ -37,9 +37,8 @@ public class Saldua_Louezethe_MidtermReq {
         myScanner.close();
 
         /* 
-        * Code follows the convention of using an indentation of four spaces. 
-        * Code follows the convention of using around 80 characters per line.
-        * test
+        * All code follows the convention of using an indentation of four spaces. 
+        * All code follows the convention of using around 80 characters per line.
         */
     }
 }
